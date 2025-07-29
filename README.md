@@ -11,6 +11,7 @@ Its active community and support for easily adding new game “eggs” make it f
 This guide shows you how to install and secure Pterodactyl Panel + Wings using an automated script with free HTTPS (Nginx + Certbot).
 
 A comprehensive, beginner-friendly guide and script to install **Pterodactyl Panel + Wings** on your own cloud server (AWS, Vultr, DigitalOcean, etc.).  
+
 This script automates the process, reducing setup time from **~30 minutes to ~5 minutes**.
 
 ---
@@ -57,7 +58,8 @@ Press **Enter** to begin.
 -   **When prompted, provide:**
     -   Database name, username, password (press Enter for default if unsure)
     -   Timezone (e.g., `UTC` or your local timezone)
-    -   Admin email, username, and password
+    -   **Admin email, username, and password**  
+        **→ Make sure to remember these! You will use them to log in to the panel as an admin.**
     -   FQDN (domain or server IP)
     -   Firewall configuration → **Select Yes**
     -   HTTPS setup → **Select No** (unless you have a domain + SSL ready)
@@ -137,7 +139,7 @@ sudo systemctl start certbot.timer
 ---
 
 **Done!**  
-Now your panel is securely accessible via:
+Now your panel is securely accessible via(https):
 
 ```
 https://panel.yourdomain.com
@@ -153,9 +155,9 @@ Open your browser and go to your secure panel URL:
 https://panel.yourdomain.com
 ```
 
-Log in with the admin credentials you created.
+Log in with the **admin email/username and password you set during installation**.
 
-> If login fails, join our Discord and open a ticket with a screenshot for help.
+> If login fails, join our [Discord](https://discord.gg/) and open a ticket with a screenshot for help.
 
 ---
 
