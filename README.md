@@ -1,7 +1,7 @@
 # Pterodactyl Panel – Easy Install Script
 
-<div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
-  <img src="https://img.shields.io/badge/Made%20by-eDenGT-blueviolet?style=for-the-badge&logo=github" alt="Made by eDenGT">
+<div align="center">
+  <img src="https://img.shields.io/badge/Made%20by-eDen-blueviolet?style=for-the-badge&logo=github" alt="Made by eDenGT">
 </div>
 
 Pterodactyl Panel is an open‑source, container‑based game server management panel built for speed, security, and ease of use. Unlike older, clunky panels, Pterodactyl offers a modern and lightweight approach to managing game servers.
@@ -17,9 +17,9 @@ This script automates the process, reducing setup time from **~30 minutes to ~5 
 
 ## 🚦 Prerequisites
 
-- Fresh Linux server (**Ubuntu 20.04/22.04 recommended**)
-- At least **2GB RAM** and **1 vCPU**
-- **Root access** (SSH or console login)
+-   Fresh Linux server (**Ubuntu 20.04/22.04 recommended**)
+-   At least **2GB RAM** and **1 vCPU**
+-   **Root access** (SSH or console login)
 
 ---
 
@@ -27,9 +27,9 @@ This script automates the process, reducing setup time from **~30 minutes to ~5 
 
 ### 1. Set Up Your Cloud Server
 
-- Create an EC2 instance on AWS (**t2.small** or higher recommended), or use any other provider (Vultr, DigitalOcean, Linode, etc.).
-- Choose **Ubuntu 20.04/22.04 LTS** as the OS.
-- Open these ports in your firewall/security group: `80` (HTTP), `443` (HTTPS), `22` (SSH).
+-   Create an EC2 instance on AWS (**t2.small** or higher recommended), or use any other provider (Vultr, DigitalOcean, Linode, etc.).
+-   Choose **Ubuntu 20.04/22.04 LTS** as the OS.
+-   Open these ports in your firewall/security group: `80` (HTTP), `443` (HTTPS), `22` (SSH).
 
 **Login to your server using SSH:**
 
@@ -53,14 +53,14 @@ Press **Enter** to begin.
 
 ### 3. Fill Out the Installation Options
 
-- **Select Option 2:** Install both Panel and Wings.
-- **When prompted, provide:**
-  - Database name, username, password (press Enter for default if unsure)
-  - Timezone (e.g., `UTC` or your local timezone)
-  - Admin email, username, and password
-  - FQDN (domain or server IP)
-  - Firewall configuration → **Select Yes**
-  - HTTPS setup → **Select No** (unless you have a domain + SSL ready)
+-   **Select Option 2:** Install both Panel and Wings.
+-   **When prompted, provide:**
+    -   Database name, username, password (press Enter for default if unsure)
+    -   Timezone (e.g., `UTC` or your local timezone)
+    -   Admin email, username, and password
+    -   FQDN (domain or server IP)
+    -   Firewall configuration → **Select Yes**
+    -   HTTPS setup → **Select No** (unless you have a domain + SSL ready)
 
 > Installation will take **10–15 minutes**.  
 > The script will handle most configurations for you.
@@ -69,9 +69,9 @@ Press **Enter** to begin.
 
 ### 4. Advanced Settings
 
-- If asked to install **MariaDB**, choose **No** (unless you specifically need it).
-- If asked to configure **UFW firewall**, choose **Yes**.
-- If asked to configure **HTTPS**, choose **No** (unless using a domain and have SSL ready).
+-   If asked to install **MariaDB**, choose **No** (unless you specifically need it).
+-   If asked to configure **UFW firewall**, choose **Yes**.
+-   If asked to configure **HTTPS**, choose **No** (unless using a domain and have SSL ready).
 
 ---
 
@@ -101,6 +101,7 @@ Create an **A record** in your DNS provider (Cloudflare, GoDaddy, etc.):
 ```
 panel.yourdomain.com → <your-server-ip>
 ```
+
 Wait a few minutes for DNS propagation.
 
 #### Step 2: Install Certbot
@@ -119,9 +120,10 @@ Run:
 ```bash
 sudo certbot --nginx -d panel.yourdomain.com
 ```
-- Agree to the terms.
-- Enter your email.
-- Choose to redirect HTTP to HTTPS when prompted.
+
+-   Agree to the terms.
+-   Enter your email.
+-   Choose to redirect HTTP to HTTPS when prompted.
 
 #### Step 4: Enable Auto-Renewal
 
@@ -181,11 +183,11 @@ A step-by-step video showing how to add a node to your Pterodactyl Panel after i
 
 ## ❓ Why Use This Script?
 
-- ⏱️ **Reduces setup time** from ~30 min to ~5 min
-- 🧑‍💻 **Beginner-friendly** (no complex manual configs)
-- 🌐 **Works on most cloud providers**
-- 🔒 **Secure** (firewall and best practices included)
-- 🛠️ **Automated** (minimal manual input required)
+-   ⏱️ **Reduces setup time** from ~30 min to ~5 min
+-   🧑‍💻 **Beginner-friendly** (no complex manual configs)
+-   🌐 **Works on most cloud providers**
+-   🔒 **Secure** (firewall and best practices included)
+-   🛠️ **Automated** (minimal manual input required)
 
 ---
 
