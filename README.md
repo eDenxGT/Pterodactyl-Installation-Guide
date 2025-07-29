@@ -10,7 +10,7 @@ Its active community and support for easily adding new game “eggs” make it f
 
 This guide shows you how to install and secure Pterodactyl Panel + Wings using an automated script with free HTTPS (Nginx + Certbot).
 
-A comprehensive, beginner-friendly guide and script to install **Pterodactyl Panel + Wings** on your own cloud server (AWS, Vultr, DigitalOcean, etc.).  
+A comprehensive, beginner-friendly guide and script to install **Pterodactyl Panel + Wings** on your own cloud server (AWS, Vultr, DigitalOcean, etc.).
 
 This script automates the process, reducing setup time from **~30 minutes to ~5 minutes**.
 
@@ -157,7 +157,7 @@ https://panel.yourdomain.com
 
 Log in with the **admin email/username and password you set during installation**.
 
-> If login fails, join our [Discord](https://discord.gg/) and open a ticket with a screenshot for help.
+> If login fails, join our [Discord](https://discord.gg/bpp8Fmv6bs) and open a ticket with a screenshot for help.
 
 ---
 
@@ -174,9 +174,9 @@ To add your node:
 
 ### 📺 Video Guide: How to Add a Node
 
-[Watch Here](#) <!-- Replace # with your actual video link if available -->
+[Watch Here](https://youtu.be/ra9bx3DiFXw?si=Y9dHqBS2GTyoDtfx) <!-- Replace # with your actual video link if available -->
 
-*I suggest beginners watch this video for a clear, step-by-step walkthrough of adding a node to your Pterodactyl Panel.*
+_I suggest beginners watch this video for a clear, step-by-step walkthrough of adding a node to your Pterodactyl Panel._
 
 ---
 
@@ -192,7 +192,7 @@ To add your node:
 
 ## 🛟 Support
 
-Join our **Discord** and open a ticket if you face issues.
+Join our **[Discord](https://discord.gg/bpp8Fmv6bs)** and open a ticket if you face issues.
 
 ---
 
@@ -208,4 +208,3 @@ Your **Pterodactyl Panel** is now live!
 Next, explore custom themes and add game servers to your panel.
 
 You can now add any game, bot, or custom egg from the community and start hosting instantly!
-
