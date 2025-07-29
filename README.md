@@ -199,7 +199,7 @@ Join our **Discord** and open a ticket if you face issues.
 
 ---
 
-## ✨ Made with ❤️ by eDenGT
+## ✨ Made with ❤️ by eDen
 
 > If you found this helpful, star the repo and follow me for more cool projects!
 
@@ -209,5 +209,7 @@ Join our **Discord** and open a ticket if you face issues.
 
 Your **Pterodactyl Panel** is now live!  
 Next, explore custom themes and add game servers to your panel.
+
+You can now add any game, bot, or custom egg from the community and start hosting instantly!
 
 ---
