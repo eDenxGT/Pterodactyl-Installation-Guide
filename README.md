@@ -166,20 +166,17 @@ Log in with the **admin email/username and password you set during installation*
 Pterodactyl uses **Nodes** (your server) to host game servers.  
 To add your node:
 
-1. Log in to the Pterodactyl admin panel.
-2. Go to **Nodes** in the sidebar.
-3. Click **Create Node** and follow the prompts.
-4. Copy the **Wings** configuration and run it on your server as instructed.
+1. Go to **Nodes** in the sidebar of the admin panel.
+2. Click **Create Node** and follow the prompts.
+3. Copy the **Wings** configuration and run it on your server as instructed.
 
 > This step is essential for hosting game servers on your panel.
 
----
-
-## 📺 Video Guide: How to Add a Node
+### 📺 Video Guide: How to Add a Node
 
 [Watch Here](#) <!-- Replace # with your actual video link if available -->
 
-A step-by-step video showing how to add a node to your Pterodactyl Panel after installation.
+*I suggest beginners watch this video for a clear, step-by-step walkthrough of adding a node to your Pterodactyl Panel.*
 
 ---
 
@@ -210,6 +207,9 @@ Join our **Discord** and open a ticket if you face issues.
 Your **Pterodactyl Panel** is now live!  
 Next, explore custom themes and add game servers to your panel.
 
+You can now add any game, bot, or custom egg from the community and start hosting instantly!
+
+---
 You can now add any game, bot, or custom egg from the community and start hosting instantly!
 
 ---
