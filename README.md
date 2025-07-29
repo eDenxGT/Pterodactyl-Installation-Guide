@@ -209,7 +209,3 @@ Next, explore custom themes and add game servers to your panel.
 
 You can now add any game, bot, or custom egg from the community and start hosting instantly!
 
----
-You can now add any game, bot, or custom egg from the community and start hosting instantly!
-
----
